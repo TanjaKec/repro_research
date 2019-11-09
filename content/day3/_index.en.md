@@ -1,13 +1,13 @@
 ---
 chapter: true
 pre: <b>4. </b>
-title: Day 3
-weight: 4
+title: Module 2
+weight: 3
 ---
 
-### Module 3
+### Module 2
 
-## Automated Reporting and Introduction to Shiny
+## Reproducible Reporting
 
 ##### In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process and learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. After you gain fundamental knowledge of markdown and knitr, you will learn to create interactive web-graphics using Shiny R package.
 
