@@ -1,0 +1,22 @@
+[
+{
+	"uri": "/fr/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/fr/",
+	"title": "Learn Theme for Hugo",
+	"tags": [],
+	"description": "",
+	"content": " Thème Hugo learn Hugo-theme-learn est un thème pour Hugo, un générateur de site statique, rapide et modern, écrit en Go. Tandis que Hugo est souvent utilisé pour des blogs, ce thème multi-langue est entièrement conçu pour la documentation.\nCe thème est un portage partiel du thème Learn de Grav, un CMS modern écrit en PHP.\nLe thème Learn fonctionne grâce à la structure de page aborescentes pour organiser le contenu: tous les contenus sont des pages qui appartiennent à d\u0026rsquo;autres pages. [Plus d\u0026rsquo;infos]()\n Fonctionnalités principales  [Recherche automatique]() [Mode multi-langue]() Nombre de niveau infini dans le menu Boutons suivant/précédent automatiquement générés pour naviguer entre les items du menu [Taille d\u0026rsquo;image, ombres\u0026hellip;]() [Fichiers joints]() [Lister les pages filles]() [Diagrammes Mermaid]() (flowchart, sequence, gantt) [Style configurable and variantes de couleurs]() [Boutons](), [Messages Astuce/Note/Info/Attention](), [Expand]()  Contribuer à cette documentation N\u0026rsquo;hésitez pas à mettre à jour ce contenu en cliquant sur le lien Modifier cette page en haut de chaque page, et créer la Pull Request associée.\nVotre modification sera déployée automatiquement quand elle sera mergée.\n Site de documentation Cette documentation statique a été générée avec Hugo avec une simple commande : hugo -t hugo-theme-learn \u0026ndash; le code source est disponible sur Github\nLe site est auomatiquement publié et hébergé par Netlify. Plus d\u0026rsquo;infos sur le déploiement de site Hugo avec Netlify(En anglais)\n "
+},
+{
+	"uri": "/fr/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

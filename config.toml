@@ -1,0 +1,40 @@
+baseURL = "https://reproresearchinr.netlify.com/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Reproducible Research in R"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+  description = "Reproducible Research"
+  author = "Tatjana Kecojevic"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "pink"
+
+[params.logo]
+url = "logo.jpg"
+
+[outputs]
+#home = [ "HTML", "RSS", "JSON"]
+home = ["HTML"]
+
+[Languages]
+[Languages.en]
+title = "Reproducible Research in R"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i>GitHub"
+identifier = "ds"
+url = "https://github.com/TanjaKec"
+weight = 10
+
+
