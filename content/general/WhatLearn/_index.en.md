@@ -14,7 +14,7 @@ By presenting some simple, but informative examples we will illustrate how repro
 
 ## Objectives:
 
--	Understand the motivation of documenting, sharing, automating, and organising the files in making a research reproducible
+-	Understand the motivation for documenting, sharing, automating, organising and disseminating the files in making a research reproducible
 -	Introduce the open source tools R/RStudio/RMarkdown/GitHub that can address these problems
 
 
