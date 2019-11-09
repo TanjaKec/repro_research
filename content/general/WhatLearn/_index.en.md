@@ -14,10 +14,9 @@ By presenting some simple, but informative examples we will illustrate how repro
 
 ## Objectives:
 
--	To become familiar with R syntax and RStudio’s environment
-- To learn to adopt a good practice of R project workflow
-- To design reproducible reports by automating the reporting process
-- To share the results of analysis using GitHub
+-	Understand the motivation of documenting, sharing, automating, and organising the files in making a research reproducible
+-	Introduce the open source tools R/RStudio/RMarkdown/GitHub that can address these problems
+
 
 ## How the course works
 

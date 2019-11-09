@@ -148,7 +148,7 @@ str(polen)
 
 ```
 ## List of 4
-##  $ count   : int 26132
+##  $ count   : int 26404
 ##  $ next    : chr "http://polen.sepa.gov.rs/api/opendata/pollens/?page=2"
 ##  $ previous: NULL
 ##  $ results :'data.frame':	500 obs. of  4 variables:
@@ -276,6 +276,9 @@ To speed up the reading process of txt, csv data files you can use the `data.tab
 
 You can use R with appropriate packages to access other data formats. The `haven` package provides functions for importing SAS, SPSS and Stata file formats or you can use the `foreign` package for MiniTab portable worksheet data files. Try to look through the help section of the packages you've been introduced to and discover other options.
 
+{{% notice note %}}
+R packages often include data as a way to provide compelling use cases for the package’s functions. There are also separate package just with the data. Examples of data packages include [Hadley Wickham’s]( http://hadley.nz) [babynames](https://github.com/hadley/babynames), [nycflights13]( https://github.com/hadley/nycflights13), and [usdanutrients](https://github.com/hadley/usdanutrients) packages or [Jenny Bryan’s](https://jennybryan.org) [gapminder](https://github.com/jennybc/gapminder). 
+{{% /notice %}}
 
 ## YOUR TURN 👇
 

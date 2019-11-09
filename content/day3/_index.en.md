@@ -9,7 +9,7 @@ weight: 3
 
 ## Reproducible Reporting
 
-##### In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process and learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. After you gain fundamental knowledge of markdown and knitr, you will learn to create interactive web-graphics using Shiny R package.
+##### In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process and learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. 
 
 
 #### What you will learn:
@@ -18,8 +18,7 @@ weight: 3
 *	Embedding R Code
 *	knitr to compile dynamic R code
 *	LaTex to incorporate mathematical expressions
-*	create dynamic graphics using Shiny‘s reactive features
-* build and deploy Shiny app
+* commit, push Rproject on GitHub
 
 -----------------------------
 © 2019 Tatjana Kecojevic
