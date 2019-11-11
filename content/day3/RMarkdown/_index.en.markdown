@@ -239,7 +239,9 @@ There is a list of files you shoul open and knit to see what are the features in
 
 - **File `04_rmdApprec.Rmd`** illustrates happy collaboration with Rmd to docx. 
 
-- **File `05_rmdApprec.Rmd`** shows how to put your work into a slide show. 
+- **File `05_rmdApprec.Rmd`** shows how to put your work into a slide show.
+
+- **File `06_rmdApprec.Rmd`** is a slide show you can upload on Rstudio's [RPubs](https://rpubs.com) server for sharing documents on the web.  
 
 Install package [`rticles`](https://github.com/rstudio/rticles) to get all of the available `rmd` templates for various paper articles.
 
