@@ -12,20 +12,20 @@
     <title>RMarkdown :: Reproducible Research in R</title>
 
     
-    <link href="/css/nucleus.css?1573405108" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1573405108" rel="stylesheet">
-    <link href="/css/hybrid.css?1573405108" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1573405108" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1573405108" rel="stylesheet">
-    <link href="/css/auto-complete.css?1573405108" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1573405108" rel="stylesheet">
-    <link href="/css/theme.css?1573405108" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1573405108" rel="stylesheet">
+    <link href="/css/nucleus.css?1573454984" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573454984" rel="stylesheet">
+    <link href="/css/hybrid.css?1573454984" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573454984" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573454984" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573454984" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573454984" rel="stylesheet">
+    <link href="/css/theme.css?1573454984" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573454984" rel="stylesheet">
     
-      <link href="/css/theme-green.css?1573405108" rel="stylesheet">
+      <link href="/css/theme-green.css?1573454984" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1573405108"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573454984"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1573405108"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1573405108"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573454984"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573454984"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1573405108"></script>
+<script type="text/javascript" src="/js/search.js?1573454984"></script>
 
     
   </div>
@@ -585,7 +585,8 @@
 <li>
 <ul>
 <li><a href="#reproducible-research-what-is-it">Reproducible Research?! What is it? 🤷️</a></li>
-<li><a href="#what-is-r-markdown">What is R Markdown?</a>
+<li><a href="#what-is-r-markdown">What is R Markdown?</a></li>
+<li><a href="#rmarkdown-appreciation">RMarkdown Appreciation</a>
 <ul>
 <li><a href="#go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown4rr">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></a></li>
 </ul></li>
@@ -603,6 +604,7 @@
 <li><a href="#adding-latex-equations">Adding <strong>LaTex</strong> equations</a></li>
 <li><a href="#congratulations-you-have-got-the-basics-to-start-creating-your-own-fabulous-dynamic-documents">Congratulations! You have got the basics to start creating your own fabulous dynamic documents… !!!! 👍😃</a></li>
 </ul></li>
+<li><a href="#taking-a-step-further">Taking a Step Further</a></li>
 <li><a href="#why-use-git">Why use Git?</a></li>
 <li><a href="#why-to-use-a-hosting-service-like-github">Why to use a Hosting Service Like Github</a>
 <ul>
@@ -708,6 +710,8 @@
 suppressPackageStartupMessages(library(rmarkdown))
 </code></pre>
 
+<h3 id="rmarkdown-appreciation">RMarkdown Appreciation</h3>
+
 <p>Before we start learning about <code>RMarkdown</code> let us do an exercise of RMarkdown appreciation 😇</p>
 
 <h4 id="go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown4rr">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></h4>
@@ -739,7 +743,8 @@ suppressPackageStartupMessages(library(rmarkdown))
 
 <p>Open the <code>RMarkdown4RR.Rproj</code> file. Once you get RStudio up and running for the given project click on the &ldquo;R/script1.R&rdquo; file. 👏👏👏</p>
 
-<p>The question we have now is: Can we put this into a document or a presentation?</p>
+<p>The question we have now is: Can we put this into a document or a presentation? 🤔
+Of course we can, but we need to learn how to do it. 🤓</p>
 
 <h3 id="starting-with-rmarkdown">Starting with RMarkdown</h3>
 
@@ -774,7 +779,7 @@ Let’s format this document further by</p>
 <p><code>[RStudio](www.rstudio.com)</code></p>
 
 <p><strong><span style="color:red">Task 3</span>:</strong>
-Make GitHub in the following paragraph link to <a href="https://github.com/TanjaKec">https://github.com/TanjaKec</a></p>
+Make GitHub in the following paragraph link to <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></p>
 
 <h4 id="text-formatting">Text formatting</h4>
 
@@ -868,6 +873,32 @@ ggplot(gapminder, aes(x = continent, y = lifeExp)) +
 <p><strong><span style="color:red">Task 7</span></strong>: Display the equation in the <em>Including Mathematical Equations</em> paragraph into its own line.</p>
 
 <h4 id="congratulations-you-have-got-the-basics-to-start-creating-your-own-fabulous-dynamic-documents">Congratulations! You have got the basics to start creating your own fabulous dynamic documents… !!!! 👍😃</h4>
+
+<h3 id="taking-a-step-further">Taking a Step Further</h3>
+
+<p>Now you&rsquo;ve got the basics of <code>rmarkdown</code> we will move onto editing more sophisticated features of your dynamic document.</p>
+
+<p>When creating an HTML document from R Markdown, you need to specify the HTML document output format in the YAML metadata of your document. You can learn more about it by checking <a href="https://bookdown.org/yihui/rmarkdown/html-document.html">this chapter</a> of <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> book.</p>
+
+<p>Let us go through the next set of prepared <code>.rmd</code> files in your <code>RMarkdown4RR</code> project folder.</p>
+
+<p>Do you remember our RMarkdown Appreciation exercise? 😃</p>
+
+<p>There is a list of files you shoul open and knit to see what are the features incorporated into the documents and to learn how it is done.</p>
+
+<ul>
+<li><p><strong>File <code>01_rmdAppric.Rmd</code></strong> incorporates the R code given in <code>R/script1.R</code> file. Open this <code>Rmd</code> file and check its metadata. Try to play around with the documents layout by changing some of the features, such as table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post <a href="http://www.datadreaming.org/post/r-markdown-theme-gallery/">r-markdown-theme-gallery</a>.</p></li>
+
+<li><p><strong>File <code>02_rmdAppric.Rmd</code></strong> enables you to create scientific and technical writing, native to the web by using Distill Basics template.</p></li>
+
+<li><p><strong>File <code>03_rmdAppric.Rmd</code></strong> shows you how to add a static imige file to your document. You should check the following blog post <a href="http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/">Tips and tricks for working with images and figures in R Markdown documents</a> by <a href="http://www.zevross.com">Zev Ross</a>.</p></li>
+
+<li><p><strong>File <code>04_rmd.Rmd</code></strong> illustrates happy collaboration with Rmd to docx.</p></li>
+
+<li><p><strong>File <code>05_rmdAppric.Rmd</code></strong> shows how to put your work into a slide show.</p></li>
+</ul>
+
+<p>Install package <a href="https://github.com/rstudio/rticles"><code>rticles</code></a> to get all of the available <code>rmd</code> templates for various paper articles.</p>
 
 <h3 id="why-use-git">Why use Git?</h3>
 
@@ -1252,19 +1283,19 @@ and check the box for <code>Open in new session</code> before you hit <code>Crea
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1573405108"></script>
-    <script src="/js/perfect-scrollbar.min.js?1573405108"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1573405108"></script>
-    <script src="/js/jquery.sticky.js?1573405108"></script>
-    <script src="/js/featherlight.min.js?1573405108"></script>
-    <script src="/js/highlight.pack.js?1573405108"></script>
+    <script src="/js/clipboard.min.js?1573454984"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573454984"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573454984"></script>
+    <script src="/js/jquery.sticky.js?1573454984"></script>
+    <script src="/js/featherlight.min.js?1573454984"></script>
+    <script src="/js/highlight.pack.js?1573454984"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1573405108"></script>
-    <script src="/js/learn.js?1573405108"></script>
-    <script src="/js/hugo-learn.js?1573405108"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573454984"></script>
+    <script src="/js/learn.js?1573454984"></script>
+    <script src="/js/hugo-learn.js?1573454984"></script>
 
-    <link href="/mermaid/mermaid.css?1573405108" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1573405108"></script>
+    <link href="/mermaid/mermaid.css?1573454984" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573454984"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

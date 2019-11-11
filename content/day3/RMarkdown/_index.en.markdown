@@ -64,6 +64,8 @@ install.packages("rmakdown", repos = "http://cran.us.r-project.org")
 suppressPackageStartupMessages(library(rmarkdown))
 ```
 
+### RMarkdown Appreciation
+
 Before we start learning about `RMarkdown` let us do an exercise of RMarkdown appreciation 😇
 
 #### 👉 Go to the following GitHub repo to download the material: <https://github.com/TanjaKec/RMarkdown4RR>
@@ -90,7 +92,8 @@ We already have the R code that would provide the results for those questions. �
 
 Open the `RMarkdown4RR.Rproj` file. Once you get RStudio up and running for the given project click on the "R/script1.R" file. 👏👏👏
 
-The question we have now is: Can we put this into a document or a presentation?
+The question we have now is: Can we put this into a document or a presentation? 🤔
+Of course we can, but we need to learn how to do it. 🤓
 
 ### Starting with RMarkdown
 
@@ -122,7 +125,7 @@ You can turn a word into a link by surrounding it in **hard brackets: [ ]** and 
 `[RStudio](www.rstudio.com)`
 
 **<span style="color:red">Task 3</span>:**
-Make GitHub in the following paragraph link to https://github.com/TanjaKec
+Make GitHub in the following paragraph link to https://github.com/TanjaKec/RMarkdown4RR
 
 #### Text formatting 
 
@@ -215,6 +218,30 @@ or to *embed an equation* **in line within the text** you would use only one dol
 
 
 #### Congratulations! You have got the basics to start creating your own fabulous dynamic documents… !!!! 👍😃
+
+### Taking a Step Further
+
+Now you've got the basics of `rmarkdown` we will move onto editing more sophisticated features of your dynamic document.
+
+When creating an HTML document from R Markdown, you need to specify the HTML document output format in the YAML metadata of your document. You can learn more about it by checking [this chapter](https://bookdown.org/yihui/rmarkdown/html-document.html) of [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) book.
+
+Let us go through the next set of prepared `.rmd` files in your `RMarkdown4RR` project folder.
+
+Do you remember our RMarkdown Appreciation exercise? 😃 
+
+There is a list of files you shoul open and knit to see what are the features incorporated into the documents and to learn how it is done. 
+
+- **File `01_rmdAppric.Rmd`** incorporates the R code given in `R/script1.R` file. Open this `Rmd` file and check its metadata. Try to play around with the documents layout by changing some of the features, such as table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post [r-markdown-theme-gallery](http://www.datadreaming.org/post/r-markdown-theme-gallery/). 
+
+- **File `02_rmdAppric.Rmd`** enables you to create scientific and technical writing, native to the web by using Distill Basics template.
+
+- **File `03_rmdAppric.Rmd`** shows you how to add a static imige file to your document. You should check the following blog post [Tips and tricks for working with images and figures in R Markdown documents](http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/) by [Zev Ross](http://www.zevross.com).
+
+- **File `04_rmd.Rmd`** illustrates happy collaboration with Rmd to docx. 
+
+- **File `05_rmdAppric.Rmd`** shows how to put your work into a slide show. 
+
+Install package [`rticles`](https://github.com/rstudio/rticles) to get all of the available `rmd` templates for various paper articles.
 
 ### Why use Git?
 
