@@ -8,19 +8,19 @@ We have all experienced seeing others presenting their research as either a slid
 
 In this workshop we will introduce you to open source software  [**R**](https://www.r-project.org) and [**GitHub**](https://github.com) that could serve as a tool for reproducible research. **R** has become essential in the research itself and in communicating its results to the community at large. It is free public domain software that is available to anyone with a desire to discover, learn, explore, experience, expand and share the algorithms of their research science journey. You will learn how to use [RStudio](https://rstudio.com) IDE for **R** from its installation to RStudio customisation and files navigation. RStudio supports working with [Git](https://git-scm.com), an open source distributed version control system, which is easy to use when combined with GitHub, a web-based Git repository hosting service. We will introduce you to GitHub and you will become acquainted with good practice when incorporating the use of Git into your **R** project workflow. 
 
-Once you get comfortable with the RStudio working environment you will be shown how to turn your research analyses into high quality documents and presentations with [R Markdown](https://rmarkdown.rstudio.com). You will be designing reproducible reports by automating the reporting process, learning how to take a modern approach to telling your data story. With the knowledge from this workshop you will be able to create reports straight from your **R** code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document.
+Once you get comfortable with the RStudio working environment you will be shown how to turn your research analyses into high quality documents and presentations with [R Markdown](https://rmarkdown.rstudio.com). You will be designing reproducible reports by automating the reporting process and learning how to take a modern approach to telling your data story. With the knowledge from this workshop you will be able to create reports straight from your **R** code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document.
 
 By presenting some simple, but informative examples we will illustrate how reproducible research can become common practice for researchers when using a simple and freely available tool.
 
 ## Objectives:
 
--	Understand the motivation for documenting, sharing, automating, organising and disseminating the files in making a research reproducible
+-	Understand the motivation for documenting, sharing, automating, organising and disseminating the files in making search reproducible
 -	Introduce the open source tools R/RStudio/RMarkdown/GitHub that can address these problems
 
 
 ## How the course works
 
-The material is structured within 2 modules. Each module is delivered in an hour and forty minutes long hands-on interactive student/teacher session with two then minutes breaks and the last twenty minutes reserved for questions and discussions.
+The material is structured within 2 modules. Each module is delivered in a hands-on interactive student/teacher session lasting one hour and forty minutes, with two ten minutes breaks and the last twenty minutes reserved for questions and discussions.
 
 Each module will be taught by [Dr Tatjana Kecojevic](tanjakec.github.io) and will cover various related topics through appropriate case studies, presentations and readings. The conceptual models come to life when practice becomes reality during the hands-on taught sessions, through the application of **R**. Students are then expected to use their own time to practice and hone acquired expertise during the taught sessions.
 

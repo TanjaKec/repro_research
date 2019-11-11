@@ -9,7 +9,7 @@ weight: 3
 
 ## Reproducible Reporting
 
-##### In this module you will learn how to turn your analyses into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process and learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. 
+##### In this module you will learn how to turn your research description and analysis into high quality documents and presentations with R Markdown. You will be designing reproducible reports by automating the reporting process, learning how to take a modern approach to telling your data story. With the knowledge from this lesson you will be able to create reports straight from your R code allowing you to document your analysis and its results as an HTML, pdf, slideshow or Microsoft Word document. 
 
 
 #### What you will learn:

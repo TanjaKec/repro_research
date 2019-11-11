@@ -21,7 +21,7 @@ Run the installation
 ![Red variant](/day1/installR/images/InstallR.png?width=40pc)
 
 
-Your R Counsole should look something like this:
+Your R Console should look something like this:
 
 ![Red variant](/day1/installR/images/RConsole.png?width=30pc)
 

@@ -1,5 +1,5 @@
 ---
-title: Reproducible Reaserch in R
+title: Reproducible Research in R
 ---
 # Reproducible Reaserch in R
 
@@ -9,7 +9,7 @@ title: Reproducible Reaserch in R
 
 > Art by [Allison Horst](https://github.com/allisonhorst/stats-illustrations/blob/master/rstats-artwork/rmarkdown_wizards.png) 
 >
-> **Reproducible Research** (**RR**) is the practice of distributing the research publication together with data and software source code required to reproduce the outcomes discussed in the study. As such the research becomes alive as whole reproducible research package describes not just the research and its results, but provides a complete laboratory in which the research can be reproduced, validated and extended.
+> **Reproducible Research** (**RR**) is the practice of distributing the publication of research together with data and software source code required to reproduce the outcomes discussed in the study. As such the research becomes alive as a whole reproducible research package describes not just the research and its results, but provides a complete laboratory in which the research can be reproduced, validated and extended.
 
 
 ![Red variant](/images/ML.jpg?width=40pc)
