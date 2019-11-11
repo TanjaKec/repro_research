@@ -243,6 +243,16 @@ There is a list of files you shoul open and knit to see what are the features in
 
 Install package [`rticles`](https://github.com/rstudio/rticles) to get all of the available `rmd` templates for various paper articles.
 
+
+R is a powerful tool for reproducible research. There are many other packages that you could also use for sharing your work. Creating Shiny application using the [R::Shiny](https://shiny.rstudio.com)  package is a nice way of engaging with the audience while sharing your work. Here is an example of a reproducible research of the problem used in the [Resampling in the Undergraduate Statistics Curriculum](https://tatjanakec.shinyapps.io/permutation_bootstrap/_w_dc1f9850/Bootstrap_WhatTeacherShouldKnow.pdf) paper:
+
+<https://tatjanakec.shinyapps.io/permutation_bootstrap/>
+
+{{% notice note %}}
+The reproducible research should not be a burden for anybody who takes their research honlestly. If nothing else, the good habits of reproducibility may actually turn out to be a time-saver in the longer run for any research practitioner.
+{{% /notice %}}
+
+
 ### Why use Git?
 
 - Easy to use
