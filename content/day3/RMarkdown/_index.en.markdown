@@ -231,15 +231,15 @@ Do you remember our RMarkdown Appreciation exercise? 😃
 
 There is a list of files you shoul open and knit to see what are the features incorporated into the documents and to learn how it is done. 
 
-- **File `01_rmdAppric.Rmd`** incorporates the R code given in `R/script1.R` file. Open this `Rmd` file and check its metadata. Try to play around with the documents layout by changing some of the features, such as table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post [r-markdown-theme-gallery](http://www.datadreaming.org/post/r-markdown-theme-gallery/). 
+- **File `01_rmdApprec.Rmd`** incorporates the R code given in `R/script1.R` file. Open this `Rmd` file and check its metadata. Try to play around with the documents layout by changing some of the features, such as table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post [r-markdown-theme-gallery](http://www.datadreaming.org/post/r-markdown-theme-gallery/). 
 
-- **File `02_rmdAppric.Rmd`** enables you to create scientific and technical writing, native to the web by using Distill Basics template.
+- **File `02_rmdApprec.Rmd`** enables you to create scientific and technical writing, native to the web by using Distill Basics template.
 
-- **File `03_rmdAppric.Rmd`** shows you how to add a static imige file to your document. You should check the following blog post [Tips and tricks for working with images and figures in R Markdown documents](http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/) by [Zev Ross](http://www.zevross.com).
+- **File `03_rmdApprec.Rmd`** shows you how to add a static imige file to your document. You should check the following blog post [Tips and tricks for working with images and figures in R Markdown documents](http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/) by [Zev Ross](http://www.zevross.com).
 
-- **File `04_rmd.Rmd`** illustrates happy collaboration with Rmd to docx. 
+- **File `04_rmdApprec.Rmd`** illustrates happy collaboration with Rmd to docx. 
 
-- **File `05_rmdAppric.Rmd`** shows how to put your work into a slide show. 
+- **File `05_rmdApprec.Rmd`** shows how to put your work into a slide show. 
 
 Install package [`rticles`](https://github.com/rstudio/rticles) to get all of the available `rmd` templates for various paper articles.
 
