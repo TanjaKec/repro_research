@@ -40,7 +40,7 @@ mode(x)
 ## [1] "character"
 ```
 
-It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. Attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
+It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. Atn atribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
 
 
 ```r
@@ -55,7 +55,7 @@ x
 ```
 
 {{% notice note %}}
-💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usually coded and you would usually enter them as such.
+💡: Note that R codes the factor levels in thphabetical order. However, attribute variables are usually coded and you would usually enter them as such.
 {{% /notice %}}
 
 
@@ -99,7 +99,7 @@ is.factor(x)
 
 ### Data Frames
 
-Statistical data usually consists of several vectors of equal length and of various types that resemble a table. Those vectors are interconnected across so that data in the same position comes from the same experimental unit, ie. observation. R uses data frame for storing this kind of data table and it is regarded as primary data structure.
+Statistical data usually consists of several vectors of equal length and of various types that resemble a table. Those vectors are interconnected across so that data in the same position comes from the same experimental unit, ie. observation. R uses data frame fsor storing this kind of data table and it is regarded as primary data structure.
 
 Let us consider a study of share prices of companies from three different business sectors. As part of the study a random sample (n=15) of companies was selected and the following data was collected:
 
@@ -134,7 +134,7 @@ sector
 ## Levels: 1 2 3
 ```
 
-Rather than keeping this data as a set of individual vectors in R, it would be better to keep whole data as a single object, i.e. data frame.
+Rather than keeping this data as a set of individual vectors in R, it would be better to keep whole data as a single object, i.e. daa ta frame.
 
 ```
 share.data <- data.frame(share_price, profit, sector)

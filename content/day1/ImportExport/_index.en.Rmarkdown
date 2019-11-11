@@ -23,13 +23,13 @@ R can import all types of data:
 - MiniTab
 - SPSS...
 
-In this section we will show you how to access most commonly used data types. Once you start playing with the data and wrangling it in the way it suits you for your analytical manipulations you might find it interesting to explore the options for writing data. Here, we are not going to show you how to do it, but rather focus on basic `read` data functionality in R. 
+In this section we will show you how to access most commonly used data types. Once you start playing with the data and wrangling it in the way it suits you for your analytical manipulations, you might find it interesting to explore the options for writing data. Here, we are not going to show you how to do it, but rather focus on basic `read` data functionality in R. 
 
 ### the R base
 
 The simplest data form is a [text file](https://en.wikipedia.org/wiki/Text_file). Text files can be read by any computer operating system and by almost all different kind of statistical programs. Saving data as a text file makes your data highly accessible. If you have a text data file you wish to use, you can easily import it with **the R base** functions `read.table()`
 
-This reads a file in table format and creates a data frame from it
+This reads a file in table format and creates a data frame from it.
 
 ```
 # Read tabular data into R
@@ -113,7 +113,7 @@ Explore the arguments of the `read_excel()` function, such as the `skip` argumen
 
 ### Importing data using `jsonlite`
 
-When accessing JSON file in R using the `jsonlite` package you need to point to the file by providing the local path if the file is downloaded or by the URL from where it could be accessed. 
+When accessing JSON file in R using the `jsonlite` package you need to point to the file by providing the local path if the file is downloaded or by the URL from where it can be accessed. 
 
 ```{r}
 ## If you don't have readxl installed yet, uncomment the line below and run it 
@@ -141,7 +141,7 @@ To speed up the reading process of txt, csv data files you can use the `data.tab
 You can use R with appropriate packages to access other data formats. The `haven` package provides functions for importing SAS, SPSS and Stata file formats or you can use the `foreign` package for MiniTab portable worksheet data files. Try to look through the help section of the packages you've been introduced to and discover other options.
 
 {{% notice note %}}
-R packages often include data as a way to provide compelling use cases for the package’s functions. There are also separate package just with the data. Examples of data packages include [Hadley Wickham’s]( http://hadley.nz) [babynames](https://github.com/hadley/babynames), [nycflights13]( https://github.com/hadley/nycflights13), and [usdanutrients](https://github.com/hadley/usdanutrients) packages or [Jenny Bryan’s](https://jennybryan.org) [gapminder](https://github.com/jennybc/gapminder). 
+R packages often include data as a way to provide compelling use cases for the package’s functions. There are also separate packages just with the data. Examples of data packages include [Hadley Wickham’s]( http://hadley.nz) [babynames](https://github.com/hadley/babynames), [nycflights13]( https://github.com/hadley/nycflights13), and [usdanutrients](https://github.com/hadley/usdanutrients) packages or [Jenny Bryan’s](https://jennybryan.org) [gapminder](https://github.com/jennybc/gapminder). 
 {{% /notice %}}
 
 ## YOUR TURN 👇

@@ -12,20 +12,20 @@
     <title>Import Data to R :: Reproducible Research in R</title>
 
     
-    <link href="/css/nucleus.css?1573488060" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1573488060" rel="stylesheet">
-    <link href="/css/hybrid.css?1573488060" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1573488060" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1573488060" rel="stylesheet">
-    <link href="/css/auto-complete.css?1573488060" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1573488060" rel="stylesheet">
-    <link href="/css/theme.css?1573488060" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1573488060" rel="stylesheet">
+    <link href="/css/nucleus.css?1573490023" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573490023" rel="stylesheet">
+    <link href="/css/hybrid.css?1573490023" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573490023" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573490023" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573490023" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573490023" rel="stylesheet">
+    <link href="/css/theme.css?1573490023" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573490023" rel="stylesheet">
     
-      <link href="/css/theme-green.css?1573488060" rel="stylesheet">
+      <link href="/css/theme-green.css?1573490023" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1573488060"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573490023"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1573488060"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1573488060"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573490023"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573490023"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1573488060"></script>
+<script type="text/javascript" src="/js/search.js?1573490023"></script>
 
     
   </div>
@@ -645,13 +645,13 @@
 <li>SPSS&hellip;</li>
 </ul>
 
-<p>In this section we will show you how to access most commonly used data types. Once you start playing with the data and wrangling it in the way it suits you for your analytical manipulations you might find it interesting to explore the options for writing data. Here, we are not going to show you how to do it, but rather focus on basic <code>read</code> data functionality in R.</p>
+<p>In this section we will show you how to access most commonly used data types. Once you start playing with the data and wrangling it in the way it suits you for your analytical manipulations, you might find it interesting to explore the options for writing data. Here, we are not going to show you how to do it, but rather focus on basic <code>read</code> data functionality in R.</p>
 
 <h3 id="the-r-base">the R base</h3>
 
 <p>The simplest data form is a <a href="https://en.wikipedia.org/wiki/Text_file">text file</a>. Text files can be read by any computer operating system and by almost all different kind of statistical programs. Saving data as a text file makes your data highly accessible. If you have a text data file you wish to use, you can easily import it with <strong>the R base</strong> functions <code>read.table()</code></p>
 
-<p>This reads a file in table format and creates a data frame from it</p>
+<p>This reads a file in table format and creates a data frame from it.</p>
 
 <pre><code># Read tabular data into R
 df_txt &lt;- read.table(file_name.txt, header = FALSE)
@@ -747,7 +747,7 @@ df_xl &lt;- read_excel(&quot;nez-opendata-20199-20190925.xlsx&quot;, sheet = 1)
 
 <h3 id="importing-data-using-jsonlite">Importing data using <code>jsonlite</code></h3>
 
-<p>When accessing JSON file in R using the <code>jsonlite</code> package you need to point to the file by providing the local path if the file is downloaded or by the URL from where it could be accessed.</p>
+<p>When accessing JSON file in R using the <code>jsonlite</code> package you need to point to the file by providing the local path if the file is downloaded or by the URL from where it can be accessed.</p>
 
 <pre><code class="language-r">## If you don't have readxl installed yet, uncomment the line below and run it 
 #install.packages(&quot;jsonlite&quot;)
@@ -889,7 +889,7 @@ polen &lt;- fromJSON(my_url)
 <p>You can use R with appropriate packages to access other data formats. The <code>haven</code> package provides functions for importing SAS, SPSS and Stata file formats or you can use the <code>foreign</code> package for MiniTab portable worksheet data files. Try to look through the help section of the packages you&rsquo;ve been introduced to and discover other options.</p>
 
 
-<div class="notices note" ><p>R packages often include data as a way to provide compelling use cases for the package’s functions. There are also separate package just with the data. Examples of data packages include <a href="http://hadley.nz">Hadley Wickham’s</a> <a href="https://github.com/hadley/babynames">babynames</a>, <a href="https://github.com/hadley/nycflights13">nycflights13</a>, and <a href="https://github.com/hadley/usdanutrients">usdanutrients</a> packages or <a href="https://jennybryan.org">Jenny Bryan’s</a> <a href="https://github.com/jennybc/gapminder">gapminder</a>.</p>
+<div class="notices note" ><p>R packages often include data as a way to provide compelling use cases for the package’s functions. There are also separate packages just with the data. Examples of data packages include <a href="http://hadley.nz">Hadley Wickham’s</a> <a href="https://github.com/hadley/babynames">babynames</a>, <a href="https://github.com/hadley/nycflights13">nycflights13</a>, and <a href="https://github.com/hadley/usdanutrients">usdanutrients</a> packages or <a href="https://jennybryan.org">Jenny Bryan’s</a> <a href="https://github.com/jennybc/gapminder">gapminder</a>.</p>
 </div>
 
 
@@ -1200,19 +1200,19 @@ polen &lt;- fromJSON(my_url)
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1573488060"></script>
-    <script src="/js/perfect-scrollbar.min.js?1573488060"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1573488060"></script>
-    <script src="/js/jquery.sticky.js?1573488060"></script>
-    <script src="/js/featherlight.min.js?1573488060"></script>
-    <script src="/js/highlight.pack.js?1573488060"></script>
+    <script src="/js/clipboard.min.js?1573490023"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573490023"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573490023"></script>
+    <script src="/js/jquery.sticky.js?1573490023"></script>
+    <script src="/js/featherlight.min.js?1573490023"></script>
+    <script src="/js/highlight.pack.js?1573490023"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1573488060"></script>
-    <script src="/js/learn.js?1573488060"></script>
-    <script src="/js/hugo-learn.js?1573488060"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573490023"></script>
+    <script src="/js/learn.js?1573490023"></script>
+    <script src="/js/hugo-learn.js?1573490023"></script>
 
-    <link href="/mermaid/mermaid.css?1573488060" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1573488060"></script>
+    <link href="/mermaid/mermaid.css?1573490023" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573490023"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
