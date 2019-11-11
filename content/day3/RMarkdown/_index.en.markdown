@@ -64,7 +64,33 @@ install.packages("rmakdown", repos = "http://cran.us.r-project.org")
 suppressPackageStartupMessages(library(rmarkdown))
 ```
 
-#### 👉 Go to the following GitHub repo to download the material: <https://github.com/TanjaKec/RMarkdown_Intro>
+Before we start learning about `RMarkdown` let us do an exercise of RMarkdown appreciation 😇
+
+#### 👉 Go to the following GitHub repo to download the material: <https://github.com/TanjaKec/RMarkdown4RR>
+
+Inside the data folder you will find the follwoing `csv` files:
+
+- athlete_events.csv
+- noc_regions.csv
+- exyu_olympic.csv
+
+{{% notice info %}}
+Split into groups of three and produce a Word document or a PowerPoint presentation to present your finding for the following problem:
+{{% /notice %}}
+
+Open the `exyu_olympic.csv` file in the Excel and try to:
+
+-	Find the number of medals per each team? 
+-	Find the number of medals per each team for the last Rio games?
+-	Visualise data about number of female and male athletes from ex YU countries available in the data set.
+
+We will work on this for the next 20 minutes. 🕟😬
+
+We already have the R code that would provide the results for those questions. 👆😅
+
+Open the `RMarkdown4RR.Rproj` file. Once you get RStudio up and running for the given project click on the "R/script1.R" file. 👏👏👏
+
+The question we have now is: Can we put this into a document or a presentation?
 
 ### Starting with RMarkdown
 
@@ -96,7 +122,7 @@ You can turn a word into a link by surrounding it in **hard brackets: [ ]** and 
 `[RStudio](www.rstudio.com)`
 
 **<span style="color:red">Task 3</span>:**
-Make GitHub in the following paragraph link to https://github.com/DataTeka
+Make GitHub in the following paragraph link to https://github.com/TanjaKec
 
 #### Text formatting 
 
@@ -249,7 +275,7 @@ We are going to assume you are already familiar with and have done:
 <img src="images/set_up_git_connection.png" width="250px" style="display: block; margin: auto auto auto 0;" />
 and check the box for `Open in new session` before you hit `Create Project` button.
 
-and you're ready to go! 😃
+You're ready to go! 😃
 
 **You would definitely find the following useful:**
 

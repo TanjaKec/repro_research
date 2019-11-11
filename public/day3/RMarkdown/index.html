@@ -12,20 +12,20 @@
     <title>RMarkdown :: Reproducible Research in R</title>
 
     
-    <link href="/css/nucleus.css?1573383474" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1573383474" rel="stylesheet">
-    <link href="/css/hybrid.css?1573383474" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1573383474" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1573383474" rel="stylesheet">
-    <link href="/css/auto-complete.css?1573383474" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1573383474" rel="stylesheet">
-    <link href="/css/theme.css?1573383474" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1573383474" rel="stylesheet">
+    <link href="/css/nucleus.css?1573405108" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1573405108" rel="stylesheet">
+    <link href="/css/hybrid.css?1573405108" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1573405108" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1573405108" rel="stylesheet">
+    <link href="/css/auto-complete.css?1573405108" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1573405108" rel="stylesheet">
+    <link href="/css/theme.css?1573405108" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1573405108" rel="stylesheet">
     
-      <link href="/css/theme-green.css?1573383474" rel="stylesheet">
+      <link href="/css/theme-green.css?1573405108" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1573383474"></script>
+    <script src="/js/jquery-3.3.1.min.js?1573405108"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1573383474"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1573383474"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1573405108"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1573405108"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1573383474"></script>
+<script type="text/javascript" src="/js/search.js?1573405108"></script>
 
     
   </div>
@@ -587,7 +587,7 @@
 <li><a href="#reproducible-research-what-is-it">Reproducible Research?! What is it? 🤷️</a></li>
 <li><a href="#what-is-r-markdown">What is R Markdown?</a>
 <ul>
-<li><a href="#go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown-intro">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown_Intro">https://github.com/TanjaKec/RMarkdown_Intro</a></a></li>
+<li><a href="#go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown4rr">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></a></li>
 </ul></li>
 <li><a href="#starting-with-rmarkdown">Starting with RMarkdown</a>
 <ul>
@@ -708,7 +708,38 @@
 suppressPackageStartupMessages(library(rmarkdown))
 </code></pre>
 
-<h4 id="go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown-intro">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown_Intro">https://github.com/TanjaKec/RMarkdown_Intro</a></h4>
+<p>Before we start learning about <code>RMarkdown</code> let us do an exercise of RMarkdown appreciation 😇</p>
+
+<h4 id="go-to-the-following-github-repo-to-download-the-material-https-github-com-tanjakec-rmarkdown4rr">👉 Go to the following GitHub repo to download the material: <a href="https://github.com/TanjaKec/RMarkdown4RR">https://github.com/TanjaKec/RMarkdown4RR</a></h4>
+
+<p>Inside the data folder you will find the follwoing <code>csv</code> files:</p>
+
+<ul>
+<li>athlete_events.csv</li>
+<li>noc_regions.csv</li>
+<li>exyu_olympic.csv</li>
+</ul>
+
+
+<div class="notices info" ><p>Split into groups of three and produce a Word document or a PowerPoint presentation to present your finding for the following problem:</p>
+</div>
+
+
+<p>Open the <code>exyu_olympic.csv</code> file in the Excel and try to:</p>
+
+<ul>
+<li>Find the number of medals per each team?</li>
+<li>Find the number of medals per each team for the last Rio games?</li>
+<li>Visualise data about number of female and male athletes from ex YU countries available in the data set.</li>
+</ul>
+
+<p>We will work on this for the next 20 minutes. 🕟😬</p>
+
+<p>We already have the R code that would provide the results for those questions. 👆😅</p>
+
+<p>Open the <code>RMarkdown4RR.Rproj</code> file. Once you get RStudio up and running for the given project click on the &ldquo;R/script1.R&rdquo; file. 👏👏👏</p>
+
+<p>The question we have now is: Can we put this into a document or a presentation?</p>
 
 <h3 id="starting-with-rmarkdown">Starting with RMarkdown</h3>
 
@@ -743,7 +774,7 @@ Let’s format this document further by</p>
 <p><code>[RStudio](www.rstudio.com)</code></p>
 
 <p><strong><span style="color:red">Task 3</span>:</strong>
-Make GitHub in the following paragraph link to <a href="https://github.com/DataTeka">https://github.com/DataTeka</a></p>
+Make GitHub in the following paragraph link to <a href="https://github.com/TanjaKec">https://github.com/TanjaKec</a></p>
 
 <h4 id="text-formatting">Text formatting</h4>
 
@@ -906,7 +937,7 @@ src="http://happygitwithr.com/img/watch-me-diff-watch-me-rebase-smaller.png" ali
 and check the box for <code>Open in new session</code> before you hit <code>Create Project</code> button.</p></li>
 </ul>
 
-<p>and you&rsquo;re ready to go! 😃</p>
+<p>You&rsquo;re ready to go! 😃</p>
 
 <p><strong>You would definitely find the following useful:</strong></p>
 
@@ -1221,19 +1252,19 @@ and check the box for <code>Open in new session</code> before you hit <code>Crea
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1573383474"></script>
-    <script src="/js/perfect-scrollbar.min.js?1573383474"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1573383474"></script>
-    <script src="/js/jquery.sticky.js?1573383474"></script>
-    <script src="/js/featherlight.min.js?1573383474"></script>
-    <script src="/js/highlight.pack.js?1573383474"></script>
+    <script src="/js/clipboard.min.js?1573405108"></script>
+    <script src="/js/perfect-scrollbar.min.js?1573405108"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1573405108"></script>
+    <script src="/js/jquery.sticky.js?1573405108"></script>
+    <script src="/js/featherlight.min.js?1573405108"></script>
+    <script src="/js/highlight.pack.js?1573405108"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1573383474"></script>
-    <script src="/js/learn.js?1573383474"></script>
-    <script src="/js/hugo-learn.js?1573383474"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1573405108"></script>
+    <script src="/js/learn.js?1573405108"></script>
+    <script src="/js/hugo-learn.js?1573405108"></script>
 
-    <link href="/mermaid/mermaid.css?1573383474" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1573383474"></script>
+    <link href="/mermaid/mermaid.css?1573405108" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1573405108"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
