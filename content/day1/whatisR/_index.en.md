@@ -29,5 +29,5 @@ To start using R you need to install it! 😃
 
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic
 

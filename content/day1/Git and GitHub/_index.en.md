@@ -92,4 +92,4 @@ You might find it useful bookmarking the link for [GitHub Cheat Sheet](https://e
 {{% /notice %}}
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic

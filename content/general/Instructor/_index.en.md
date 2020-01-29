@@ -10,4 +10,4 @@ The instructor is **Dr Tatjana Kecojević** who is a longtime **R** user with a 
 
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic

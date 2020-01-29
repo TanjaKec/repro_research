@@ -40,4 +40,4 @@ We recomend you check regularly for R/Rstudio updates.
 {{% /notice %}}
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic

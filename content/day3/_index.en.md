@@ -21,4 +21,4 @@ weight: 3
 * commit, push Rproject on GitHub
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic

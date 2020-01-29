@@ -18,12 +18,19 @@ title: Reproducible Research in R
 
 
 #### In partnership with
+
+<span style="color:#5E2A43">**Belgrade Open School**</span>
+
+[![BOS](/images/BOS-logo.png?width=7.5pc)](http://www.bos.rs/en/)
+
+
+
 <span style="color:#5E2A43">**Institute of Philosophy and Social Theory**</span> | **University of Beograde**
 
-[![Red variant](/images/IFDT.jpg?width=7.5pc)](http://www.instifdt.bg.ac.rs)
+[![IFDT](/images/IFDT.jpg?width=7.5pc)](http://www.instifdt.bg.ac.rs)
 
 [![University of Belgrade](/images/UniBG.png?width=7.5pc)](https://www.bg.ac.rs/en/)
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecojevic
 

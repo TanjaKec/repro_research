@@ -148,7 +148,7 @@ str(polen)
 
 ```
 ## List of 4
-##  $ count   : int 26404
+##  $ count   : int 26420
 ##  $ next    : chr "http://polen.sepa.gov.rs/api/opendata/pollens/?page=2"
 ##  $ previous: NULL
 ##  $ results :'data.frame':	500 obs. of  4 variables:
@@ -289,4 +289,4 @@ R packages often include data as a way to provide compelling use cases for the p
 
 
 -----------------------------
-© 2019 Tatjana Kecojevic
+© 2020 Tatjana Kecenavic
