@@ -17,7 +17,7 @@ weight: 1
 
   - If you notice a data error how easy would it be to re-create the analysis?
 
-  - Your collaborator is no longer available? 
+  - What if your collaborator is no longer available? 
 
 
 ### What is R Markdown?
@@ -34,7 +34,7 @@ weight: 1
 
 - [A computational document](http://radar.oreilly.com/2011/07/wolframs-computational-documen.html)
 
-- Wizardry.
+- Wizardry
 
 [Alison Hill](https://alison.rbind.io) from [R Markdown Anatomy](https://rmd4medicine.netlify.com/slides/01-rmd-anatomy.html#1)
 
@@ -70,17 +70,17 @@ Before we start learning about `RMarkdown` let us do an exercise of RMarkdown ap
 
 #### 👉 Go to the following GitHub repo to download the material: <https://github.com/TanjaKec/RMarkdown4RR>
 
-Inside the data folder you will find the follwing `csv` files:
+Inside the data folder you will find the following `csv` files:
 
 - athlete_events.csv
 - noc_regions.csv
 - exyu_olympic.csv
 
 {{% notice info %}}
-Split into groups of three and discuss how would you produce a Word document or a PowerPoint presentation to present your finding for the following problem:
+Split into groups of three and discuss how you would produce a Word document or a PowerPoint presentation to present your findings for the following problem:
 {{% /notice %}}
 
-Open the `exyu_olympic.csv` file in the Excel and try to:
+Open the `exyu_olympic.csv` file in Excel and try to:
 
 -	Find the number of medals per team? 
 -	Find the number of medals per team for the last Rio games?
@@ -114,7 +114,7 @@ Let’s format this document further by
 
 - Changing the author of the document to your own name
 
-- Rewriting the first sentence of the document to say "This is my first R Markdown document.".
+- Rewriting the first sentence of the document to say "This is my first R Markdown document"
 
 - Recompiling the document so you can see your changes
 
@@ -153,7 +153,7 @@ that come before it.
 
 - Make the following paragraph in your Rmd document look like this:
 
-When analysing data,... The variables can be one of two broad types:
+When analysing data... The variables can be one of two broad types:
 
 1) **Attribute variable**: has its outcomes described in terms of its characteristics or
 attributes;
@@ -214,9 +214,9 @@ ggplot(gapminder, aes(x = continent, y = lifeExp)) +
 
 #### Adding **LaTex** equations
 
-Finally, if you wish to add mathematical equations to your Markdown document you can easily embed [LaTeX]( LaTeX ) math equations into your report.
+Finally, if you wish to add mathematical equations to your Markdown document you can easily embed [LaTeX]( LaTeX ) maths equations into your report.
 
-To *display equation* **in its own line** it needs to be surrounded by the double dollar symbol:
+To *display an equation* **in its own line** it needs to be surrounded by the double dollar symbol:
 
 `$$` `y = a + bx` `$$`, 
 
@@ -241,7 +241,7 @@ There is a list of files you should open and knit to see what features are incor
 
 - **File `01_rmdApprec.Rmd`** incorporates the R code given in `R/script1.R` file. Open this `Rmd` file and check its metadata. Try to play around with the document's layout by changing some of the features, such as the table of contents (TOC) using the toc option or theme (for more available themes you can use see the blog post [r-markdown-theme-gallery](http://www.datadreaming.org/post/r-markdown-theme-gallery/). 
 
-- **File `02_rmdApprec.Rmd`** enables you to create scientific and technical writing, native to the web by using Distill Basics template. For more see <https://rstudio.github.io/distill/basics.html>.
+- **File `02_rmdApprec.Rmd`** enables you to create scientific and technical writing, native to the web by using the Distill Basics template. For more see <https://rstudio.github.io/distill/basics.html>.
 
 - **File `03_rmdApprec.Rmd`** shows you how to add a static image file to your document. You should check the following blog post [Tips and tricks for working with images and figures in R Markdown documents](http://zevross.com/blog/2017/06/19/tips-and-tricks-for-working-with-images-and-figures-in-r-markdown-documents/) by [Zev Ross](http://www.zevross.com).
 
@@ -253,8 +253,11 @@ There is a list of files you should open and knit to see what features are incor
 
 Install the [`rticles`](https://github.com/rstudio/rticles) package to get all of the available `rmd` templates for various paper articles.
 
+{{% notice info %}}
+This section is based on the material developed by [Dr Alison Hill](https://alison.rbind.io) for [R Markdown for Medicine](https://rmd4medicine.netlify.app) workshop.
+{{% /notice %}}
 
-R is a powerful tool for reproducible research. There are many other packages that you could also use for sharing your work. Creating Shiny application using the [R::Shiny](https://shiny.rstudio.com)  package is a nice way of engaging with the audience while sharing your work. Here is an example of a reproducible research of the problem used in the [Resampling in the Undergraduate Statistics Curriculum](https://tatjanakec.shinyapps.io/permutation_bootstrap/_w_dc1f9850/Bootstrap_WhatTeacherShouldKnow.pdf) paper:
+R is a powerful tool for reproducible research. There are many other packages that you could also use for sharing your work. Creating Shiny application using the [R::Shiny](https://shiny.rstudio.com)  package is a nice way of engaging with the audience while sharing your work. Here is an example of reproducible research of the problem used in the [Resampling in the Undergraduate Statistics Curriculum](https://tatjanakec.shinyapps.io/permutation_bootstrap/_w_dc1f9850/Bootstrap_WhatTeacherShouldKnow.pdf) paper:
 
 <https://tatjanakec.shinyapps.io/permutation_bootstrap/>
 
@@ -274,7 +277,7 @@ Reproducible research should not be a burden for anybody who takes their researc
 - Takes up minimal space
 
 
-### Why to use a Hosting Service Like Github
+### Why use a Hosting Service Like Github
 
 - Backup of your project
 
@@ -286,9 +289,9 @@ Reproducible research should not be a burden for anybody who takes their researc
 
 - A common location to share your work
 
-##### Puting your R project on GitHub from RStudio
+##### Putting your R project on GitHub from RStudio
 
-We'll go through the basic steps of connecting RStudio with your GitHub account, but for more detailed instructions you shoul check [Happy Git dwith R](http://happygitwithr.com).
+We will go through the basic steps of connecting RStudio with your GitHub account, but for more detailed instructions you should check [Happy Git with R](http://happygitwithr.com).
 
 <img 
 src="http://happygitwithr.com/img/watch-me-diff-watch-me-rebase-smaller.png" align="middle" img width="60%"  
@@ -296,7 +299,7 @@ src="http://happygitwithr.com/img/watch-me-diff-watch-me-rebase-smaller.png" ali
 
 We are going to assume you are already familiar with and have done:
 
-☑️ Capter 5: [Registerh a GitHub account ](http://happygitwithr.com/github-acct.html)
+☑️ Chapter 5: [Register a GitHub account ](http://happygitwithr.com/github-acct.html)
 
 ☑️ Chapter 6: [Install or upgrade R and RStudio ](http://happygitwithr.com/install-r-rstudio.html)
 
@@ -320,7 +323,7 @@ We are going to assume you are already familiar with and have done:
 
 * Paste the address of your Git repo  
 <img src="images/set_up_git_connection.png" width="250px" style="display: block; margin: auto auto auto 0;" />
-and check the box for `Open in new session` before you hit `Create Project` bthe utton.
+and check the box for `Open in new session` before you hit the `Create Project` button.
 
 You're ready to go! 😃
 
@@ -340,5 +343,7 @@ You're ready to go! 😃
 
 - [Writing in R Markdown](https://jdblischak.github.io/r-intermediate-altmetrics/09-rmarkdown.html) by [Software Carpentry](https://software-carpentry.org/)
 
+- [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

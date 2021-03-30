@@ -4,11 +4,11 @@ title: RStudio IDE
 weight: 4
 ---
 
-## RStudio's layout 
+### RStudio's layout 
 
 When you open RStudio for the first time it will be split into three sections. Each section has its own tab with shortcuts for the relevant options available from the main RStudio menu. 
 
-![Red variant](/day1/RStudioIDE/images/RStudioWindow.png?width=40pc)
+![](/day1/RStudioIDE/images/RStudioWindow.png?width=40pc)
 
 - The tall <span style="color:red">**red section**</span>  on the left is the <span style="color:red">Console</span> and that’s where you can type in R code to execute.
 This code is also called commands or functions.
@@ -24,5 +24,5 @@ This code is also called commands or functions.
 
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic
 

@@ -6,6 +6,7 @@ output:
 weight: 7
 ---
 
+
 The examples we have used in the 'How to Use R' section are all dealing with numbers (quantitative numerical data). Those of you familiar with programming will know that numerical objects can be classified as real, integer, double or complex. To check if an object is numeric and what type it is, you can use the `mode()` and `class()` functions respectively.
 
 Let us go back into our R project and type the following into the open script file and run the code.😃
@@ -40,7 +41,7 @@ mode(x)
 ## [1] "character"
 ```
 
-It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. Atn atribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
+It is common in statistical data to have attributes also known as categorical variables. In R such variables should be specified as **factors**. An attribute variable has a set of levels indicating possible outcomes. Hence, to deal with x as an attribute variable with five levels we need to make it a factor in R.
 
 
 ```r
@@ -55,7 +56,7 @@ x
 ```
 
 {{% notice note %}}
-💡: Note that R codes the factor levels in thphabetical order. However, attribute variables are usually coded and you would usually enter them as such.
+💡: Note that R codes the factor levels in their alphabetical order. However, attribute variables are usually coded and you would usually enter them as such.
 {{% /notice %}}
 
 
@@ -99,7 +100,7 @@ is.factor(x)
 
 ### Data Frames
 
-Statistical data usually consists of several vectors of equal length and of various types that resemble a table. Those vectors are interconnected across so that data in the same position comes from the same experimental unit, ie. observation. R uses data frame fsor storing this kind of data table and it is regarded as primary data structure.
+Statistical data usually consists of several vectors of equal length and of various types that resemble a table. These vectors are interconnected across so that data in the same position comes from the same experimental unit, ie. observation. R uses data frame for storing this kind of data table and it is regarded as a primary data structure.
 
 Let us consider a study of share prices of companies from three different business sectors. As part of the study a random sample (n=15) of companies was selected and the following data was collected:
 
@@ -121,8 +122,8 @@ profit
 ```
 
 ```
-##  [1] 161.3 170.5 140.7 115.7 107.9 135.2 142.7 114.9 110.4  98.9  90.2
-## [12]  80.6  85.4  91.7 137.8
+##  [1] 161.3 170.5 140.7 115.7 107.9 135.2 142.7 114.9 110.4  98.9  90.2  80.6
+## [13]  85.4  91.7 137.8
 ```
 
 ```r
@@ -134,7 +135,7 @@ sector
 ## Levels: 1 2 3
 ```
 
-Rather than keeping this data as a set of individual vectors in R, it would be better to keep whole data as a single object, i.e. daa ta frame.
+Rather than keeping this data as a set of individual vectors in R, it would be better to keep all the data as a single object, i.e. data frame.
 
 ```
 share.data <- data.frame(share_price, profit, sector)
@@ -150,7 +151,5 @@ share.data$sector
 Now, as we have mastered the basics let us learn how to access existing data from R.
 
 
-
-
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

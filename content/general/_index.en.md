@@ -25,4 +25,4 @@ Art by [Allison Horst](https://github.com/allisonhorst/stats-illustrations/blob/
 
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

@@ -5,6 +5,7 @@ menuTitle: "Install R"
 weight: 2
 ---
 
+
 ## Install R
 
 To begin our journey to data science in R we need to install and make sure we can run it.
@@ -33,11 +34,11 @@ RStudio Desktop - <http://www.rstudio.com>
 
 ![Red variant](/day1/installR/images/RStudioIDE.png?width=50pc)
 
-RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and work-space management. You can check its features by visiting [RSTudio website](https://www.rstudio.com/products/rstudio/features/).
+RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and work-space management. You can check its features by visiting the [RSTudio website](https://www.rstudio.com/products/rstudio/features/).
 
 {{% notice note %}}
-We recomend you check regularly for R/Rstudio updates.
+We recommend you check regularly for R/Rstudio updates.
 {{% /notice %}}
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

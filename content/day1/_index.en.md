@@ -19,4 +19,4 @@ weight: 2
 * R environment: record keeping
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

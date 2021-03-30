@@ -33,4 +33,4 @@ In this module you will learn how to turn your research description and analysis
 * commit, push Rproject on GitHub
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic

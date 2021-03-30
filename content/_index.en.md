@@ -19,6 +19,10 @@ title: Reproducible Research in R
 
 #### In partnership with
 
+<span style="color:#5E2A43">**FabLab - Social Fabricks Research Lab at West University of Timișoara**</span>
+
+[![BOS](/images/FabLab.png?width=7.5pc)](https://www.facebook.com/fablab.uvt/posts)
+
 <span style="color:#5E2A43">**Belgrade Open School**</span>
 
 [![BOS](/images/BOS-logo.png?width=7.5pc)](http://www.bos.rs/en/)
@@ -32,5 +36,5 @@ title: Reproducible Research in R
 [![University of Belgrade](/images/UniBG.png?width=7.5pc)](https://www.bg.ac.rs/en/)
 
 -----------------------------
-© 2020 Tatjana Kecojevic
+© 2021 Tatjana Kecojevic
 
