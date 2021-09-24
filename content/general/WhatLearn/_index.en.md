@@ -19,7 +19,7 @@ By presenting some simple, but informative examples we will illustrate how repro
 -	Introduce the open source tools R/RStudio/RMarkdown/GitHub that can address these problems
 
 
-## How the course works
+## How the workshop works
 
 The material is structured within 2 modules. Each module is delivered in a hands-on interactive student/teacher session lasting one hour and forty minutes, with two ten minutes breaks and the last twenty minutes reserved for questions and discussions.
 
