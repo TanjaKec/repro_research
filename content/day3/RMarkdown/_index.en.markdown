@@ -346,4 +346,6 @@ You're ready to go! 😃
 - [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)

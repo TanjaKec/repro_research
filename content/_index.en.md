@@ -18,10 +18,14 @@ title: Reproducible Research in R
 
 
 #### In partnership with
+<span style="color:#5E2A43">**Data Science Conference Europe 2021**</span>
+
+[![DSC](/images/DSC.png?width=7.5pc)](https://www.datasciconference.com)
+
 
 <span style="color:#5E2A43">**FabLab - Social Fabricks Research Lab at West University of Timișoara**</span>
 
-[![BOS](/images/FabLab.png?width=7.5pc)](https://www.facebook.com/fablab.uvt/posts)
+[![FabLab](/images/FabLab.png?width=7.5pc)](https://www.facebook.com/fablab.uvt/posts)
 
 <span style="color:#5E2A43">**Belgrade Open School**</span>
 
@@ -36,5 +40,7 @@ title: Reproducible Research in R
 [![University of Belgrade](/images/UniBG.png?width=7.5pc)](https://www.bg.ac.rs/en/)
 
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)
 

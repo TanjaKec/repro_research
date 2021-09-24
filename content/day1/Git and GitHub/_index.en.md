@@ -92,4 +92,6 @@ You might find it useful bookmarking the link for [GitHub Cheat Sheet](https://e
 {{% /notice %}}
 
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)

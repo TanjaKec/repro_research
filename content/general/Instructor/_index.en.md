@@ -12,6 +12,7 @@ The instructor is **Dr Tatjana Kecojević** who is a longtime **R** user with a 
 >
 >##### The material presented is built on those principles and has been enriched by integrating the vast amount of open and inclusive #rstats community resources. This learning resource is free to use. It is written in [`Rmarkdown`](https://cran.r-project.org/web/packages/rmarkdown/index.html) using [`blogdown`](https://cran.r-project.org/web/packages/blogdown/index.html) package. 
 
-
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)

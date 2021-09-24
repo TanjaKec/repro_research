@@ -29,7 +29,8 @@ Currently **R** is developed by the **R Development Core Team**, of which *John 
 To start using R you need to install it! 😃
 
 
-
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)
 

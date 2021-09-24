@@ -1,13 +1,13 @@
 ---
 chapter: true
 pre: <b>1. </b>
-title: About the course
+title: About the workshop
 weight: 1
 ---
 
 About the Course
 
-##### This course is designed to give you an appreciation of R programming as a tool for reproducible research. It focuses on packages that will help you access your data, do necessary visualisation and communication in a dynamic and reproducible manner.
+##### This workshop is designed to give you an appreciation of R programming as a tool for reproducible research. It focuses on packages that will help you access your data, do necessary visualisation and communication in a dynamic and reproducible manner.
 
 #### If you would like to learn to:
 
@@ -25,4 +25,7 @@ Art by [Allison Horst](https://github.com/allisonhorst/stats-illustrations/blob/
 
 
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)
+

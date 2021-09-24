@@ -15,16 +15,16 @@ We will start by installing R first and then RStudio. The analogy we can use her
 * R homepage - <http://www.r-project.org>
 * CRAN Mirrors - <http://cran.r-project.org>
 
-![Red variant](/day1/installR/images/CRAN.png?width=40pc)
+![](/day1/installR/images/CRAN.png?width=40pc)
 
 Run the installation
 
-![Red variant](/day1/installR/images/InstallR.png?width=40pc)
+![](/day1/installR/images/InstallR.png?width=40pc)
 
 
 Your R Console should look something like this:
 
-![Red variant](/day1/installR/images/RConsole.png?width=30pc)
+![](/day1/installR/images/RConsole.png?width=30pc)
 
 ## Install RStudio
 
@@ -32,7 +32,7 @@ RStudio is available in open source and commercial editions and runs on the desk
 
 RStudio Desktop - <http://www.rstudio.com>
 
-![Red variant](/day1/installR/images/RStudioIDE.png?width=50pc)
+![](/day1/installR/images/RStudioIDE.png?width=50pc)
 
 RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and work-space management. You can check its features by visiting the [RSTudio website](https://www.rstudio.com/products/rstudio/features/).
 
@@ -41,4 +41,6 @@ We recommend you check regularly for R/Rstudio updates.
 {{% /notice %}}
 
 -----------------------------
-© 2021 Tatjana Kecojevic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)

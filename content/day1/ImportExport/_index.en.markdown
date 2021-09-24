@@ -825,6 +825,7 @@ You can use R with appropriate packages to access other data formats. The `haven
 
 
 
-
 -----------------------------
-© 2021 Tatjana Kecenavic
+Material is released under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+![](/images/cc_by_sa.jpg?width=5pc)
