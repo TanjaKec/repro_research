@@ -17,7 +17,7 @@ About the Workshop
 * Generate reproducible reports that display your code and results
 * Assemble your research reporting as either HTML, a PDF or a Word document using the package `rmarkdown`
 
-#### then this course is for you! 😀
+#### then this workshop is for you! 😀
 
 ![RMarkdown](/general/images/rmarkdown_rockstar.png?width=40pc)
 
