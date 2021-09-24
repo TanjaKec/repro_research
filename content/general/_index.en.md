@@ -5,7 +5,7 @@ title: About the workshop
 weight: 1
 ---
 
-About the Course
+About the Workshop
 
 ##### This workshop is designed to give you an appreciation of R programming as a tool for reproducible research. It focuses on packages that will help you access your data, do necessary visualisation and communication in a dynamic and reproducible manner.
 
